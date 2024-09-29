@@ -8,7 +8,7 @@ function showSlide(index) {
   } else {
     slideIndex = index;
   }
-  document.querySelector(".slides").style.transform = `translateX (-${
+  document.querySelector(".slides").style.transform = `translateX(-${
     slideIndex * 100
   }%)`;
 }
@@ -18,4 +18,4 @@ function changeSlide(direction) {
 }
 setInterval(() => {
   changeSlide(1);
-}, 3000);
+}, 8000);
